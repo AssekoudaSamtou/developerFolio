@@ -9,26 +9,28 @@ const illustration = {
 };
 
 const greeting = {
-  username: 'Saad Pasta',
-  title: "Hi all, I'm Saad",
+  username: 'Samtou Assekouda',
+  title: "Hi all, I'm Samtou",
   subTitle: emoji(
-    'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
+    'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Python / Django / Flask / JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
   ),
   resumeLink:
-    'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
+    'https://drive.google.com/file/d/1ws4mWP9WeLuhnEIYVs8kHmtE0HcXe-Rq/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: 'https://github.com/saadpasta',
-  linkedin: 'https://www.linkedin.com/in/saadpasta/',
-  gmail: 'saadpasta70@gmail.com',
-  gitlab: 'https://gitlab.com/saadpasta',
-  facebook: 'https://www.facebook.com/saad.pasta7',
-  medium: 'https://medium.com/@saadpasta',
-  stackoverflow: 'https://stackoverflow.com/users/10422806/saad-pasta',
+  github: 'https://github.com/AssekoudaSamtou',
+  linkedin: 'https://www.linkedin.com/in/samtou-assekouda-b2a78b174/',
+  gmail: 'samtou.assekouda@gmail.com',
+  gitlab: 'https://gitlab.com/samtou',
+  facebook: 'https://www.facebook.com/profile.php?id=100006987135486',
+  medium: 'https://medium.com/@christassek',
+  stackoverflow: 'https://stackoverflow.com/users/11230845/samtou',
+  instagram: 'https://www.instagram.com/christ_assek/',
+  twitter: 'https://mobile.twitter.com/assekouda',
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
@@ -40,11 +42,14 @@ const skillsSection = {
   subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
   skills: [
     emoji(
+      '⚡ Develop rich API with Django Rest FrameWork'
+    ),
+    emoji(
       '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
     ),
     emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
     emoji(
-      '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+      '⚡ Integration of third party services such as Twilio/ Heroku / Github'
     ),
   ],
 
@@ -61,8 +66,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-css3-alt',
     },
     {
-      skillName: 'sass',
-      fontAwesomeClassname: 'fab fa-sass',
+      skillName: 'python',
+      fontAwesomeClassname: 'fab fa-python',
     },
     {
       skillName: 'JavaScript',
@@ -76,10 +81,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: 'nodejs',
       fontAwesomeClassname: 'fab fa-node',
     },
-    {
-      skillName: 'swift',
-      fontAwesomeClassname: 'fab fa-swift',
-    },
+    // {
+    //   skillName: 'swift',
+    //   fontAwesomeClassname: 'fab fa-swift',
+    // },
     {
       skillName: 'npm',
       fontAwesomeClassname: 'fab fa-npm',
@@ -89,16 +94,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fas fa-database',
     },
     {
-      skillName: 'aws',
-      fontAwesomeClassname: 'fab fa-aws',
+      skillName: 'nosql-database',
+      fontAwesomeClassname: 'fas fa-database',
     },
+    // {
+    //   skillName: 'aws',
+    //   fontAwesomeClassname: 'fab fa-aws',
+    // },
+    // {
+    //   skillName: 'firebase',
+    //   fontAwesomeClassname: 'fas fa-fire',
+    // },
     {
-      skillName: 'firebase',
-      fontAwesomeClassname: 'fas fa-fire',
-    },
-    {
-      skillName: 'python',
-      fontAwesomeClassname: 'fab fa-python',
+      skillName: 'github',
+      fontAwesomeClassname: 'fab fa-github',
     },
     {
       skillName: 'docker',
@@ -143,15 +152,15 @@ const techStack = {
   experience: [
     {
       Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-      progressPercentage: '90%', //Insert relative proficiency in percentage
+      progressPercentage: '60%', //Insert relative proficiency in percentage
     },
     {
       Stack: 'Backend',
-      progressPercentage: '70%',
+      progressPercentage: '80%',
     },
     {
       Stack: 'Programming',
-      progressPercentage: '60%',
+      progressPercentage: '50%',
     },
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -163,10 +172,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'Software Engineer',
-      company: 'Facebook',
-      companylogo: require('./assets/images/facebookLogo.png'),
-      date: 'June 2018 – Present',
+      role: 'Director of IT services',
+      company: 'New Touch Investing TOGO',
+      companylogo: require('./assets/images/logo nti avec fond-min.png'),
+      date: 'August 2020 – Present',
       desc:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       descBullets: [
@@ -175,30 +184,29 @@ const workExperiences = {
       ],
     },
     {
-      role: 'Front-End Developer',
-      company: 'Quora',
-      companylogo: require('./assets/images/quoraLogo.png'),
-      date: 'May 2017 – May 2018',
-      desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      role: 'Project Manager on school project',
+      company: 'IPNET UNIVERSITY',
+      companylogo: require('./assets/images/logo_ipnet.JPG'),
+      date: 'March 2020 – July 2020',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     },
-    {
-      role: 'Software Engineer Intern',
-      company: 'Airbnb',
-      companylogo: require('./assets/images/airbnbLogo.png'),
-      date: 'Jan 2015 – Sep 2015',
-      desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    },
+    // {
+    //   role: 'Software Engineer Intern',
+    //   company: 'Airbnb',
+    //   companylogo: require('./assets/images/airbnbLogo.png'),
+    //   date: 'Jan 2015 – Sep 2015',
+    //   desc:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    // },
   ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
-
+console.log(process.env.REACT_APP_GITHUB_TOKEN);
 const openSource = {
-  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: 'saadpasta', // Change to your github username to view your profile in Contact Section.
+  githubConvertedToken: "d65f186a0604a48a1f213c9f5fb8e3ad3135fbaa",
+  githubUserName: 'AssekoudaSamtou', // Change to your github username to view your profile in Contact Section.
   showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
   display: true, // Set false to hide this section, defaults to true
 };
@@ -324,7 +332,7 @@ const talkSection = {
       event_url: 'https://www.facebook.com/events/2339906106275053/',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -337,22 +345,22 @@ const podcastSection = {
   podcast: [
     'https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo',
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji('Contact Me ☎️'),
   subtitle:
     'Discuss a project or just want to say hi? My Inbox is open for all.',
-  number: '+92-3243454077',
-  emailAddress: 'saadpasta70@gmail.com',
+  number: '+228 93870335',
+  emailAddress: 'samtou.assekouda@gmail.com',
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: 'twitter', //Replace "twitter" with your twitter username without @
-  display: true, // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 
 export {
