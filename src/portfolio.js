@@ -14,8 +14,7 @@ const greeting = {
   subTitle: emoji(
     'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Python / Django / Flask / JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
   ),
-  resumeLink:
-    'https://drive.google.com/file/d/1ws4mWP9WeLuhnEIYVs8kHmtE0HcXe-Rq/view?usp=sharing',
+  resumeLink: 'https://drive.google.com/file/d/1ws4mWP9WeLuhnEIYVs8kHmtE0HcXe-Rq/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -204,7 +203,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 console.log(process.env.REACT_APP_GITHUB_TOKEN);
 const openSource = {
-  githubConvertedToken: "d65f186a0604a48a1f213c9f5fb8e3ad3135fbaa",
+  githubConvertedToken: "2d2b274287be1ed34c3bc3887981d209ea8ca0e2",
   githubUserName: 'AssekoudaSamtou', // Change to your github username to view your profile in Contact Section.
   showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
   display: true, // Set false to hide this section, defaults to true
@@ -240,7 +239,7 @@ const achievementSection = {
       title: 'Medaille de Bronze à la Togolese Collegiate Programing Contest',
       subtitle:
         'First IPNET UNIVERSIT team to be etre dans les 3 premiers parmi plus de 20 equipes venues de differents ecoles.',
-      image: require('./assets/images/codeInLogo.webp'),
+      image: require('./assets/images/icpc.PNG'),
       footerLink: [
         {
           name: 'Award Letter',
@@ -278,6 +277,10 @@ const achievementSection = {
         {
           name: 'Award letter',
           url: 'https://pakistan-olx-1.firebaseapp.com/',
+        },
+        {
+          name: 'US embassy blog',
+          url: 'https://tg.usembassy.gov/fr/remarques-de-lambassadeur-gilmour-a-louverture-du-camp-de-robotique-lundi-20-aout-2018/',
         },
       ],
     },
