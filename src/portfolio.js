@@ -122,25 +122,25 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: 'Harvard University',
-      logo: require('./assets/images/harvardLogo.png'),
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
+      schoolName: 'IPNET INSTITUTE OF TECHNOLOGY',
+      logo: require('./assets/images/ipnet.png'),
+      subHeader: 'Bachelor of Science in Computer Science',
+      duration: 'September 2017 - September 2020',
+      desc: 'Participated in the Open Days Award and Managed a team on school project.',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       ],
     },
-    {
-      schoolName: 'Stanford University',
-      logo: require('./assets/images/stanfordLogo.png'),
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
-    },
+    // {
+    //   schoolName: 'COLLEGE MILITAIRE EYADEMA',
+    //   logo: require('./assets/images/stanfordLogo.png'),
+    //   subHeader: 'Bachelor of Science in Computer Science',
+    //   duration: 'September 2013 - April 2017',
+    //   desc:
+    //     'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
+    //   descBullets: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
+    // },
   ],
 };
 
@@ -175,10 +175,10 @@ const workExperiences = {
       company: 'New Touch Investing TOGO',
       companylogo: require('./assets/images/logo nti avec fond-min.png'),
       date: 'August 2020 – Present',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      desc: 'Manage and maintain all infomation systems',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       ],
     },
     {
@@ -186,7 +186,7 @@ const workExperiences = {
       company: 'IPNET UNIVERSITY',
       companylogo: require('./assets/images/logo_ipnet.JPG'),
       date: 'March 2020 – July 2020',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      desc: 'I have managed a team based on waterfall model',
     },
     // {
     //   role: 'Software Engineer Intern',
@@ -203,7 +203,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 console.log(process.env.REACT_APP_GITHUB_TOKEN);
 const openSource = {
-  githubConvertedToken: "2d2b274287be1ed34c3bc3887981d209ea8ca0e2",
+  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: 'AssekoudaSamtou', // Change to your github username to view your profile in Contact Section.
   showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
   display: true, // Set false to hide this section, defaults to true
@@ -216,12 +216,12 @@ const bigProjects = {
   subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
   projects: [
     {
-      image: require('./assets/images/saayaHealthLogo.webp'),
-      link: 'http://saayahealth.com/',
+      image: require('./assets/images/logo_nti_sans_fond-min_225x225.png'),
+      link: 'https://newtouchinvesting.com/',
     },
     {
-      image: require('./assets/images/nextuLogo.webp'),
-      link: 'http://nextu.se/',
+      image: require('./assets/images/apple-touch-icon-144-precomposed.png'),
+      link: 'https://doctor-assistance-web-app.herokuapp.com/',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -238,7 +238,7 @@ const achievementSection = {
     {
       title: 'Medaille de Bronze à la Togolese Collegiate Programing Contest',
       subtitle:
-        'First IPNET UNIVERSIT team to be etre dans les 3 premiers parmi plus de 20 equipes venues de differents ecoles.',
+        'First IPNET UNIVERSITY team to be in the top 3 among more than 20 teams from different schools.',
       image: require('./assets/images/icpc.PNG'),
       footerLink: [
         {
@@ -256,7 +256,7 @@ const achievementSection = {
     {
       title: 'IPNET Institute of Technology\'s Open Days Award',
       subtitle: 'First prize for project presentation with Doctor-Help web application.',
-      image: require('./assets/images/googleAssistantLogo.webp'),
+      image: require('./assets/images/logo_ipnet.JPG'),
       footerLink: [
         {
           name: 'Demo',
@@ -270,8 +270,8 @@ const achievementSection = {
     },
     {
       title: 'Robotic camp Award',
-      subtitle: 'First prize for project peeching at the robotic camp organised by the US embassy of Togo',
-      image: require('./assets/images/pwaLogo.webp'),
+      subtitle: 'First prize for project pitching at the robotic camp organised by the US embassy of Togo',
+      image: require('./assets/images/usa2.jpg'),
       footerLink: [
         // { name: 'Certification', url: '' },
         {
@@ -310,7 +310,7 @@ const blogSection = {
         'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -357,7 +357,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: 'assekouda', //Replace "twitter" with your twitter username without @
-  display: false, // Set true to display this section, defaults to false
+  display: true, // Set true to display this section, defaults to false
 };
 
 export {
