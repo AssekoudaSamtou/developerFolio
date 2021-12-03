@@ -151,7 +151,7 @@ const techStack = {
 	experience: [
 		{
 			Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-			progressPercentage: '60%', //Insert relative proficiency in percentage
+			progressPercentage: '75%', //Insert relative proficiency in percentage
 		},
 		{
 			Stack: 'Backend',
@@ -170,17 +170,28 @@ const techStack = {
 const workExperiences = {
 	display: true, //Set it to true to show workExperiences Section
 	experience: [
-		/*{
+		{
+			role: 'Fullstack Software Engineer',
+			company: 'MICRO FINANCE PRO',
+			companylogo: require('./assets/images/mfp.png'),
+			date: 'August 2021 – Present',
+			desc: 'I am responsible for the development and maintenance of a web application for financial institution',
+			descBullets: [
+				// 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+				// 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+			],
+		},
+		{
 			role: 'Director of IT services',
 			company: 'New Touch Investing TOGO',
 			companylogo: require('./assets/images/logo nti avec fond-min.png'),
-			date: 'August 2020 – Present',
+			date: 'August 2020 – June 2021',
 			desc: 'Manage and maintain all infomation systems',
 			descBullets: [
 				// 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
 				// 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
 			],
-		},*/
+		},
 		{
 			role: 'Project Manager on school project',
 			company: 'IPNET UNIVERSITY',
@@ -188,14 +199,14 @@ const workExperiences = {
 			date: 'March 2020 – July 2020',
 			desc: 'I have managed a team based on waterfall model',
 		},
-		// {
-		//   role: 'Software Engineer Intern',
-		//   company: 'Airbnb',
-		//   companylogo: require('./assets/images/airbnbLogo.png'),
-		//   date: 'Jan 2015 – Sep 2015',
-		//   desc:
-		//     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-		// },
+		/*{
+		  role: 'Software Engineer Intern',
+		  company: 'Airbnb',
+		  companylogo: require('./assets/images/airbnbLogo.png'),
+		  date: 'Jan 2015 – Sep 2015',
+		  desc:
+		    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+		},*/
 	],
 };
 
@@ -244,13 +255,13 @@ const achievementSection = {
 				{
 					name: 'Award Letter',
 					url:
-						'https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing',
+						'https://drive.google.com/file/d/1PuNScYVZODCpbaLJ4jKXbtcbMTki4vU0/view?usp=sharing',
 				},
-				{
+				/*{
 					name: 'ICPI Blog',
 					url:
 						'https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html',
-				},
+				},*/
 			],
 		},
 		{
@@ -260,11 +271,11 @@ const achievementSection = {
 			footerLink: [
 				{
 					name: 'Demo',
-					url: 'https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en',
+					url: 'https://doctor-assistance-web-app.herokuapp.com/',
 				},
 				{
-					name: 'Award letter',
-					url: 'https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en',
+					name: 'IPNET Blog',
+					url: 'https://www.ipnetuniversity.com/#projet21',
 				},
 			],
 		},
@@ -274,10 +285,10 @@ const achievementSection = {
 			image: require('./assets/images/usa2.jpg'),
 			footerLink: [
 				// { name: 'Certification', url: '' },
-				{
+				/*{
 					name: 'Award letter',
 					url: 'https://pakistan-olx-1.firebaseapp.com/',
-				},
+				},*/
 				{
 					name: 'US embassy blog',
 					url: 'https://tg.usembassy.gov/fr/remarques-de-lambassadeur-gilmour-a-louverture-du-camp-de-robotique-lundi-20-aout-2018/',
