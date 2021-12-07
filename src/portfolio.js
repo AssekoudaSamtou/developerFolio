@@ -234,6 +234,10 @@ const bigProjects = {
 			image: require('./assets/images/apple-touch-icon-144-precomposed.png'),
 			link: 'https://doctor-assistance-web-app.herokuapp.com/',
 		},
+		{
+			image: require('./assets/images/vb.png'),
+			link: 'http://waast.org:8000',
+		},
 	],
 	display: true, // Set false to hide this section, defaults to true
 };
