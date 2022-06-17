@@ -236,7 +236,7 @@ const bigProjects = {
 		},
 		{
 			image: require('./assets/images/vb.png'),
-			link: 'http://waast.org:8000',
+			link: 'https://vbfatad.org',
 		},
 	],
 	display: true, // Set false to hide this section, defaults to true
