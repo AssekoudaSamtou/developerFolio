@@ -29,13 +29,7 @@ const socialMediaLinks = {
 	github: 'https://github.com/AssekoudaSamtou',
 	linkedin: 'https://www.linkedin.com/in/samtou-assekouda-b2a78b174/',
 	gmail: 'christophe1999da@gmail.com',
-	// gitlab: 'https://gitlab.com/samtou',
-	// facebook: 'https://www.facebook.com/profile.php?id=100006987135486',
-	// medium: 'https://medium.com/@christassek',
-	// stackoverflow: 'https://stackoverflow.com/users/11230845/samtou',
-	// instagram: 'https://www.instagram.com/christ_assek/',
 	twitter: 'https://mobile.twitter.com/assekouda',
-	// Instagram and Twitter are also supported in the links!
 	display: true, // Set true to display this section, defaults to false
 };
 
